@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
 import axios from 'axios';
-import { API_URL } from 'react-native-dotenv';
+import { API_URL } from '@env';
 
 const RegisterScreen = ({ navigation }) => {
   const [name, setName] = useState('');
